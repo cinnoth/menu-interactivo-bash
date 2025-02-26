@@ -1,0 +1,72 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "abrir-aplicación-angular-y-hacer-clic-en-un-enlace-del-menu;usuario-abre-la-app-y-hace-clic-en-'learn-with-tutorials'",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Usuario abre la app y hace clic en 'Learn with Tutorials'",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "el usuario abre la página Angular",
+            "match": {
+              "location": "step_definitions/cucumber_prueba.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1228637591
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "el usuario hace clic en 'Learn with Tutorials'",
+            "match": {
+              "location": "step_definitions/cucumber_prueba.steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 115488347
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "el usuario es redirigido a la página de tutoriales",
+            "match": {
+              "location": "step_definitions/cucumber_prueba.steps.js:31"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5002058871,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (/angular-selenium-docker/proyecto-angular-selenium/node_modules/@cucumber/cucumber/lib/time.js:54:20)\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 164193156
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "abrir-aplicación-angular-y-hacer-clic-en-un-enlace-del-menu",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Abrir aplicación angular y hacer clic en un enlace del menu",
+    "tags": [],
+    "uri": "features/cucumber-prueba.feature"
+  }
+]
